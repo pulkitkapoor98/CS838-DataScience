@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I233
+sS'startIndex'
+p5
+I209
+sS'string'
+p6
+VCity College of New York.
+p7
+sa(dp8
+g4
+I645
+sg5
+I619
+sg6
+VCity University of New York
+p9
+sa(dp10
+g4
+I725
+sg5
+I722
+sg6
+VCUNY
+p11
+sa(dp12
+g4
+I983
+sg5
+I964
+sg6
+VColin Powell School.
+p13
+sas.

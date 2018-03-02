@@ -1,0 +1,56 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I235
+sS'startIndex'
+p5
+I222
+sS'string'
+p6
+VMichigan State
+p7
+sa(dp8
+g4
+I366
+sg5
+I353
+sg6
+VMichigan State
+p9
+sa(dp10
+g4
+I942
+sg5
+I929
+sg6
+VMichigan State
+p11
+sa(dp12
+g4
+I2249
+sg5
+I2236
+sg6
+VMichigan State
+p13
+sa(dp14
+g4
+I2952
+sg5
+I2939
+sg6
+VMichigan State
+p15
+sa(dp16
+g4
+I3055
+sg5
+I3042
+sg6
+VMichigan State
+p17
+sas.

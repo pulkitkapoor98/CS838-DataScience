@@ -1,0 +1,56 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I197
+sS'startIndex'
+p5
+I173
+sS'string'
+p6
+VFarmingdale State College
+p7
+sa(dp8
+g4
+I1527
+sg5
+I1493
+sg6
+VCalifornia Institute of Technology.
+p9
+sa(dp10
+g4
+I1823
+sg5
+I1817
+sg6
+VCaltech
+p11
+sa(dp12
+g4
+I2265
+sg5
+I2259
+sg6
+VCaltech
+p13
+sa(dp14
+g4
+I2532
+sg5
+I2500
+sg6
+VUniversity of Southern California
+p15
+sa(dp16
+g4
+I2597
+sg5
+I2566
+sg6
+VUniversity of California Irvine.
+p17
+sas.

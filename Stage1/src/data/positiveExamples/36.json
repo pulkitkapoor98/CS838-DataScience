@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I102
+sS'startIndex'
+p5
+I85
+sS'string'
+p6
+VUniversity of Iowa
+p7
+sa(dp8
+g4
+I389
+sg5
+I386
+sg6
+VIowa
+p9
+sa(dp10
+g4
+I456
+sg5
+I427
+sg6
+VUniversity of Central Missouri
+p11
+sa(dp12
+g4
+I747
+sg5
+I726
+sg6
+VUniversity of Michigan
+p13
+sas.

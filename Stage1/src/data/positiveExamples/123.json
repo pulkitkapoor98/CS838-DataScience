@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I99
+sS'startIndex'
+p5
+I93
+sS'string'
+p6
+VEl Paso
+p7
+sa(dp8
+g4
+I310
+sg5
+I292
+sg6
+VUniversity of Texas
+p9
+sa(dp10
+g4
+I372
+sg5
+I365
+sg6
+VEl Paso.
+p11
+sa(dp12
+g4
+I555
+sg5
+I549
+sg6
+VEl Paso
+p13
+sas.

@@ -1,0 +1,56 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I306
+sS'startIndex'
+p5
+I288
+sS'string'
+p6
+VSyracuse University
+p7
+sa(dp8
+g4
+I960
+sg5
+I943
+sg6
+VUniversity of Iowa
+p9
+sa(dp10
+g4
+I1421
+sg5
+I1418
+sg6
+VIowa
+p11
+sa(dp12
+g4
+I1834
+sg5
+I1799
+sg6
+VRowan School of Osteopathic Medicine
+p13
+sa(dp14
+g4
+I2646
+sg5
+I2643
+sg6
+VIowa
+p15
+sa(dp16
+g4
+I3149
+sg5
+I3132
+sg6
+VUniversity of Iowa
+p17
+sas.

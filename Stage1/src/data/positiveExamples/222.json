@@ -1,0 +1,56 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I209
+sS'startIndex'
+p5
+I174
+sS'string'
+p6
+VJohn Jay College of Criminal Justice
+p7
+sa(dp8
+g4
+I324
+sg5
+I309
+sg6
+VJohn Jay College
+p9
+sa(dp10
+g4
+I732
+sg5
+I714
+sg6
+VUniversity of Tampa
+p11
+sa(dp12
+g4
+I876
+sg5
+I843
+sg6
+VCalifornia State University Fresno
+p13
+sa(dp14
+g4
+I1024
+sg5
+I1018
+sg6
+VRutgers
+p15
+sa(dp16
+g4
+I1087
+sg5
+I1062
+sg6
+VMontclair State University
+p17
+sas.

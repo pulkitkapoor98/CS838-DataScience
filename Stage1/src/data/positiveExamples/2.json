@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I15
+sS'startIndex'
+p5
+I0
+sS'string'
+p6
+VLe Moyne College
+p7
+sa(dp8
+g4
+I265
+sg5
+I250
+sg6
+VRoberts Wesleyan
+p9
+sa(dp10
+g4
+I317
+sg5
+I303
+sg6
+VPace University
+p11
+sa(dp12
+g4
+I462
+sg5
+I455
+sg6
+VHartwick
+p13
+sa(dp14
+g4
+I635
+sg5
+I620
+sg6
+VHartwick College
+p15
+sas.

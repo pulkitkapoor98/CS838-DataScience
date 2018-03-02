@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I122
+sS'startIndex'
+p5
+I103
+sS'string'
+p6
+VUniversity of Sydney
+p7
+sa(dp8
+g4
+I478
+sg5
+I465
+sg6
+VLowy Institute
+p9
+sa(dp10
+g4
+I1234
+sg5
+I1214
+sg6
+VJames Cook University
+p11
+sa(dp12
+g4
+I1297
+sg5
+I1292
+sg6
+VMonash
+p13
+sa(dp14
+g4
+I1938
+sg5
+I1918
+sg6
+VUniversity of Sydney.
+p15
+sas.

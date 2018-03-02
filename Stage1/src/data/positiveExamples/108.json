@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I403
+sS'startIndex'
+p5
+I380
+sS'string'
+p6
+VGeorgia State University
+p7
+sa(dp8
+g4
+I950
+sg5
+I929
+sg6
+VUniversity of Georgia.
+p9
+sa(dp10
+g4
+I994
+sg5
+I958
+sg6
+VFranklin College of Arts and Sciences
+p11
+sa(dp12
+g4
+I1024
+sg5
+I1000
+sg6
+VFranklin College of Arts.
+p13
+sas.

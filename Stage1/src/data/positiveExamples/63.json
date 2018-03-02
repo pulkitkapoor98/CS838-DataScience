@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I301
+sS'startIndex'
+p5
+I283
+sS'string'
+p6
+VAustralian National
+p7
+sa(dp8
+g4
+I1027
+sg5
+I1009
+sg6
+VAustralian National
+p9
+sa(dp10
+g4
+I1374
+sg5
+I1358
+sg6
+VSydney University
+p11
+sa(dp12
+g4
+I1987
+sg5
+I1973
+sg6
+VPierson College
+p13
+sa(dp14
+g4
+I2165
+sg5
+I2151
+sg6
+VPierson College
+p15
+sas.

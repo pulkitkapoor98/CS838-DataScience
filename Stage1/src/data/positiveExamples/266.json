@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I81
+sS'startIndex'
+p5
+I59
+sS'string'
+p6
+VUniversity of Michigan.
+p7
+sa(dp8
+g4
+I154
+sg5
+I126
+sg6
+VAmerican Enterprise Institute
+p9
+sa(dp10
+g4
+I1065
+sg5
+I1044
+sg6
+VUniversity of Michigan
+p11
+sa(dp12
+g4
+I1311
+sg5
+I1294
+sg6
+VMiddlebury College
+p13
+sas.

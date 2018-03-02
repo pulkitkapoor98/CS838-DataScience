@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I76
+sS'startIndex'
+p5
+I55
+sS'string'
+p6
+VTexas State University
+p7
+sa(dp8
+g4
+I159
+sg5
+I136
+sg6
+VFlorida State University
+p9
+sa(dp10
+g4
+I227
+sg5
+I199
+sg6
+VPennsylvania State University
+p11
+sa(dp12
+g4
+I682
+sg5
+I657
+sg6
+VLouisiana State University
+p13
+sas.

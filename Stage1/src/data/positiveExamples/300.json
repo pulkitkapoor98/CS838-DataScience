@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I497
+sS'startIndex'
+p5
+I475
+sS'string'
+p6
+VUniversity of Cambridge
+p7
+sa(dp8
+g4
+I687
+sg5
+I673
+sg6
+VNewnham College
+p9
+sa(dp10
+g4
+I715
+sg5
+I693
+sg6
+VLucy Cavendish College.
+p11
+sa(dp12
+g4
+I882
+sg5
+I868
+sg6
+VNewnham College
+p13
+sa(dp14
+g4
+I982
+sg5
+I968
+sg6
+VMurray Edwards.
+p15
+sas.

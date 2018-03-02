@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I63
+sS'startIndex'
+p5
+I46
+sS'string'
+p6
+VFordham University
+p7
+sa(dp8
+g4
+I81
+sg5
+I65
+sg6
+VManhattan College
+p9
+sa(dp10
+g4
+I104
+sg5
+I83
+sg6
+VLong Island University
+p11
+sa(dp12
+g4
+I276
+sg5
+I259
+sg6
+VHofstra University
+p13
+sas.

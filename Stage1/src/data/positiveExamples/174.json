@@ -1,0 +1,64 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I576
+sS'startIndex'
+p5
+I566
+sS'string'
+p6
+VNorth Shore
+p7
+sa(dp8
+g4
+I1803
+sg5
+I1788
+sg6
+VSouth University
+p9
+sa(dp10
+g4
+I1950
+sg5
+I1930
+sg6
+VUniversity of Georgia
+p11
+sa(dp12
+g4
+I1979
+sg5
+I1956
+sg6
+VGeorgia State University
+p13
+sa(dp14
+g4
+I2028
+sg5
+I2013
+sg6
+VSouth University
+p15
+sa(dp16
+g4
+I2132
+sg5
+I2117
+sg6
+VSouth University
+p17
+sa(dp18
+g4
+I2435
+sg5
+I2420
+sg6
+VSouth University
+p19
+sas.

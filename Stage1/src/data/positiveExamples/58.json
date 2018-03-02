@@ -1,0 +1,32 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I100
+sS'startIndex'
+p5
+I63
+sS'string'
+p6
+VRaincross High School Riverside Calif.
+p7
+sa(dp8
+g4
+I324
+sg5
+I301
+sg6
+VRiverside Unified School
+p9
+sa(dp10
+g4
+I1296
+sg5
+I1275
+sg6
+VEwha Womans University
+p11
+sas.

@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I30
+sS'startIndex'
+p5
+I0
+sS'string'
+p6
+VCase Western Reserve University
+p7
+sa(dp8
+g4
+I358
+sg5
+I347
+sg6
+VCase Western
+p9
+sa(dp10
+g4
+I975
+sg5
+I972
+sg6
+VSUNY
+p11
+sa(dp12
+g4
+I1110
+sg5
+I1086
+sg6
+VFarmingdale State College
+p13
+sas.

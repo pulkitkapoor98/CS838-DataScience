@@ -1,0 +1,56 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I24
+sS'startIndex'
+p5
+I4
+sS'string'
+p6
+VUniversity of Florida
+p7
+sa(dp8
+g4
+I911
+sg5
+I879
+sg6
+VUniversity of California Berkeley
+p9
+sa(dp10
+g4
+I935
+sg5
+I913
+sg6
+VEvergreen State College
+p11
+sa(dp12
+g4
+I987
+sg5
+I965
+sg6
+VUniversity of Virginia.
+p13
+sa(dp14
+g4
+I1230
+sg5
+I1209
+sg6
+VUniversity of Florida.
+p15
+sa(dp16
+g4
+I1528
+sg5
+I1508
+sg6
+VKent State University
+p17
+sas.

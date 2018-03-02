@@ -1,0 +1,64 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I49
+sS'startIndex'
+p5
+I29
+sS'string'
+p6
+VWarren Wilson College
+p7
+sa(dp8
+g4
+I231
+sg5
+I213
+sg6
+VWesleyan University
+p9
+sa(dp10
+g4
+I559
+sg5
+I552
+sg6
+VWesleyan
+p11
+sa(dp12
+g4
+I1793
+sg5
+I1787
+sg6
+VBowdoin
+p13
+sa(dp14
+g4
+I2211
+sg5
+I2188
+sg6
+VJohns Hopkins University
+p15
+sa(dp16
+g4
+I2387
+sg5
+I2360
+sg6
+VUniversity of North Carolina
+p17
+sa(dp18
+g4
+I2492
+sg5
+I2485
+sg6
+VU. N.C. 
+p19
+sas.

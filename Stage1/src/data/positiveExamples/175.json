@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I37
+sS'startIndex'
+p5
+I22
+sS'string'
+p6
+VSouth University
+p7
+sa(dp8
+g4
+I223
+sg5
+I196
+sg6
+VUniversity of North Carolina
+p9
+sa(dp10
+g4
+I353
+sg5
+I316
+sg6
+VGeorgia Northwestern Technical College
+p11
+sa(dp12
+g4
+I570
+sg5
+I546
+sg6
+VSavannah State University
+p13
+sas.

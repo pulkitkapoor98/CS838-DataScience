@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I609
+sS'startIndex'
+p5
+I593
+sS'string'
+p6
+VHamilton College.
+p7
+sa(dp8
+g4
+I685
+sg5
+I668
+sg6
+VPurdue University.
+p9
+sa(dp10
+g4
+I1857
+sg5
+I1833
+sg6
+VMichigan State University
+p11
+sa(dp12
+g4
+I2579
+sg5
+I2566
+sg6
+VMichigan State
+p13
+sas.

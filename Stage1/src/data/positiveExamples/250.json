@@ -1,0 +1,88 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I424
+sS'startIndex'
+p5
+I396
+sS'string'
+p6
+VPennsylvania State University
+p7
+sa(dp8
+g4
+I439
+sg5
+I426
+sg6
+VMichigan State
+p9
+sa(dp10
+g4
+I455
+sg5
+I441
+sg6
+VLouisiana State
+p11
+sa(dp12
+g4
+I492
+sg5
+I465
+sg6
+VUniversity of North Carolina
+p13
+sa(dp14
+g4
+I558
+sg5
+I550
+sg6
+VTexas A&M
+p15
+sa(dp16
+g4
+I639
+sg5
+I616
+sg6
+VUniversity of Cincinnati
+p17
+sa(dp18
+g4
+I794
+sg5
+I780
+sg6
+VMichigan State.
+p19
+sa(dp20
+g4
+I838
+sg5
+I822
+sg6
+VAuburn University
+p21
+sa(dp22
+g4
+I1052
+sg5
+I1032
+sg6
+VUniversity of Florida
+p23
+sa(dp24
+g4
+I1300
+sg5
+I1280
+sg6
+VUniversity of Florida
+p25
+sas.

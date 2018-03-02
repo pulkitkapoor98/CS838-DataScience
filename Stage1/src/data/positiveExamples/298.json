@@ -1,0 +1,32 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I143
+sS'startIndex'
+p5
+I117
+sS'string'
+p6
+VCollege of William and Mary
+p7
+sa(dp8
+g4
+I1864
+sg5
+I1832
+sg6
+VUniversity of California Berkeley
+p9
+sa(dp10
+g4
+I2003
+sg5
+I1996
+sg6
+VBerkeley
+p11
+sas.

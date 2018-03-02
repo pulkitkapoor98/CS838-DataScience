@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I49
+sS'startIndex'
+p5
+I34
+sS'string'
+p6
+VLe Moyne College
+p7
+sa(dp8
+g4
+I984
+sg5
+I972
+sg6
+VSiena College
+p9
+sa(dp10
+g4
+I1670
+sg5
+I1639
+sg6
+VFlorida International University
+p11
+sa(dp12
+g4
+I1810
+sg5
+I1788
+sg6
+VUniversity of Minnesota
+p13
+sa(dp14
+g4
+I1953
+sg5
+I1936
+sg6
+VStetson University
+p15
+sas.

@@ -1,0 +1,40 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I760
+sS'startIndex'
+p5
+I748
+sS'string'
+p6
+VBrown College
+p7
+sa(dp8
+g4
+I777
+sg5
+I762
+sg6
+VBerkeley College
+p9
+sa(dp10
+g4
+I806
+sg5
+I779
+sg6
+VColumbia Southern University
+p11
+sa(dp12
+g4
+I831
+sg5
+I811
+sg6
+VNorthwestern College.
+p13
+sas.

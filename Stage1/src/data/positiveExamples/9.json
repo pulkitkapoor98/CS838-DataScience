@@ -1,0 +1,32 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I77
+sS'startIndex'
+p5
+I59
+sS'string'
+p6
+VNew York University
+p7
+sa(dp8
+g4
+I105
+sg5
+I81
+sg6
+VStern School of Business.
+p9
+sa(dp10
+g4
+I650
+sg5
+I643
+sg6
+VBerkeley
+p11
+sas.

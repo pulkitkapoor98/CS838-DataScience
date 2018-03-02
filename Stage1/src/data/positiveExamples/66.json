@@ -1,0 +1,96 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I556
+sS'startIndex'
+p5
+I538
+sS'string'
+p6
+VNew York University
+p7
+sa(dp8
+g4
+I612
+sg5
+I598
+sg6
+VPace University
+p9
+sa(dp10
+g4
+I653
+sg5
+I618
+sg6
+VJohn Jay College of Criminal Justice
+p11
+sa(dp12
+g4
+I668
+sg5
+I655
+sg6
+VVassar College
+p13
+sa(dp14
+g4
+I689
+sg5
+I674
+sg6
+VBarnard College.
+p15
+sa(dp16
+g4
+I722
+sg5
+I695
+sg6
+VState University of New York
+p17
+sa(dp18
+g4
+I784
+sg5
+I761
+sg6
+VCity College of New York
+p19
+sa(dp20
+g4
+I1675
+sg5
+I1636
+sg6
+VNational Autonomous University of Mexico
+p21
+sa(dp22
+g4
+I2236
+sg5
+I2218
+sg6
+VColumbia University
+p23
+sa(dp24
+g4
+I2331
+sg5
+I2292
+sg6
+VNational Autonomous University of Mexico
+p25
+sa(dp26
+g4
+I2366
+sg5
+I2363
+sg6
+VUNAM
+p27
+sas.

@@ -1,0 +1,88 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I420
+sS'startIndex'
+p5
+I384
+sS'string'
+p6
+VUniversity of California Los Angeles.
+p7
+sa(dp8
+g4
+I602
+sg5
+I579
+sg6
+VArizona State University
+p9
+sa(dp10
+g4
+I627
+sg5
+I604
+sg6
+VGeorgia State University
+p11
+sa(dp12
+g4
+I646
+sg5
+I633
+sg6
+VLehman College
+p13
+sa(dp14
+g4
+I855
+sg5
+I843
+sg6
+VGeorgia State
+p15
+sa(dp16
+g4
+I1647
+sg5
+I1630
+sg6
+VIndiana University
+p17
+sa(dp18
+g4
+I1679
+sg5
+I1657
+sg6
+VEvergreen State College
+p19
+sa(dp20
+g4
+I1842
+sg5
+I1836
+sg6
+VIndiana
+p21
+sa(dp22
+g4
+I1967
+sg5
+I1931
+sg6
+VMassachusetts Institute of Technology
+p23
+sa(dp24
+g4
+I2297
+sg5
+I2292
+sg6
+VTemple
+p25
+sas.

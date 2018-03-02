@@ -1,0 +1,48 @@
+(dp0
+S'possamples'
+p1
+(lp2
+(dp3
+S'endIndex'
+p4
+I927
+sS'startIndex'
+p5
+I921
+sS'string'
+p6
+VHarvard
+p7
+sa(dp8
+g4
+I1687
+sg5
+I1670
+sg6
+VBoston University.
+p9
+sa(dp10
+g4
+I1727
+sg5
+I1704
+sg6
+VCollege of Communication
+p11
+sa(dp12
+g4
+I2319
+sg5
+I2312
+sg6
+VB. U.But
+p13
+sa(dp14
+g4
+I2529
+sg5
+I2513
+sg6
+VBoston University
+p15
+sas.
