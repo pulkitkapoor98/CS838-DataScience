@@ -57,43 +57,29 @@ def extractFeatures():
 							entryFeatureList = []						
 							entryFeatureList.append(isOfInThePhrase(phrase))
 							entryFeatureList.append(isAndInThePhrase(phrase))
-							
 							# spclList = ['university', 'college', 'school', 'institute']
 							entryFeatureList.append(isFirstWordInList(phrase))
 							entryFeatureList.append(hasWordInSpclList(phrase))
-
 							entryFeatureList.append(isAtBeforePhrase(the_whole_file, startIdx))
 							entryFeatureList.append(isSecondWordBeforePhraseAt(the_whole_file, startIdx))
-
 							entryFeatureList.append(isInBeforePhrase(the_whole_file, startIdx))
 							entryFeatureList.append(isSecondWordBeforePhraseIn(the_whole_file, startIdx))
-							
 							entryFeatureList.append(isOfBeforePhrase(the_whole_file, startIdx))
 							entryFeatureList.append(isSecondWordBeforePhraseOf(the_whole_file, startIdx))
-
 							entryFeatureList.append(isTheBeforePhrase(the_whole_file, startIdx))
-							
 							entryFeatureList.append(isFirstWordBeforePhraseCapitalized(the_whole_file,startIdx))
 							entryFeatureList.append(isSecondWordBeforePhraseCapitalized(the_whole_file,startIdx))
-							
 							entryFeatureList.append(isFirstWordAfterPhraseCapitalized(the_whole_file,endIdx,numCharacters))
-							
 							entryFeatureList.append(isFirstWordBeforePhraseAAn(the_whole_file,startIdx))
-							
 							entryFeatureList.append(isSecondWordBeforePhraseProf(the_whole_file,startIdx))
-							
 							entryFeatureList.append(isFirstWordAfterPhraseAndFollowedByCapital(the_whole_file,endIdx,numCharacters))						
 							entryFeatureList.append(isFirstWordAfterPhraseOfFollowedByCapital(the_whole_file,endIdx,numCharacters))
-							
 							entryFeatureList.append(isFirstWordAfterPhraseOf(the_whole_file,endIdx,numCharacters))
-							
 							# list = ["mr.", "mrs.", "dr.", "professor"]
 							entryFeatureList.append(isFirstWordBeforePhraseInList(the_whole_file,startIdx))
 							entryFeatureList.append(isAnyWordinCommomnSingleList(phrase,commonSingleWordUni))
 							entryFeatureList.append(isWordinCommomnSingleList(phrase,commonSingleWordUni))
-							
 							entryFeatureList.append(isAllCaps(phrase))
-
 							entryFeatureList.append(label)			
 							allFeatureList.append(entryFeatureList)
 							
