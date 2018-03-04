@@ -1,12 +1,12 @@
 #   Stage 1
 
 ##  Hyperlinks
-* [Stage 1 Report](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/report_stage1.pdf)
+* [Stage 1 Report](https://github.com/pulkitkapoor98/CS839-DataScience/blob/master/Stage1/CS839_Stage1_Report.pdf)
 * [Documents](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/docs)
 * [Training Set I documents](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/Set-I-Docs)
 * [Test Set J documents](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/Set-J-Docs)
 * [Browsable code](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/src)
-* [Compressed File](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/stage1_compressed.zip)
+* [Compressed File](https://github.com/pulkitkapoor98/CS839-DataScience/blob/master/Stage1/Stage1_compressed.zip)
 
 
 ### Support or Contact
