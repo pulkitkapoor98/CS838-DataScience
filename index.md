@@ -1,5 +1,13 @@
 #   Stage 1 Report
-Github (http://google.com)
+
+[Link to all the documents] (https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/docs)
+
+[Link to Set I documents] (https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/Set-I-Docs)
+
+[Link to Set J documents] (https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/Set-J-Docs)
+
+[Link to all code] (https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage1/src)
+
 
 ### Support or Contact
 
