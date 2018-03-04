@@ -48,6 +48,7 @@ def analyzeFalseNeg(y_test, y_pred, test_indices, gtData):
 def performCrossValidation(clf,X,y, k,gtData):
     averagePrec = 0
     averageRecall = 0
+    averageF1 = 0
     kf = cross_validation.KFold(len(y), n_folds=k,random_state = None)
     foldcount = 1
     for train_index, test_index in kf:
@@ -64,10 +65,11 @@ def performCrossValidation(clf,X,y, k,gtData):
         P,R,F1 = calculatePRF1(y_test,y_pred)
         averagePrec = averagePrec + P
         averageRecall = averageRecall + R
+        averageF1 = averageF1 + F1
     averagePrec = averagePrec/k
     averageRecall = averageRecall/k
-
-    print "averagePrec = ", averagePrec, "averageRecall = ", averageRecall, "using",k,  "fold\n"
+    averageF1 = averageF1/k
+    print "averagePrec = ", averagePrec, "averageRecall = ", averageRecall, "averageF1 = ", averageF1, "using",k,  "fold\n"
 
     # doing cross validation using method 2
     # y_pred = cross_val_predict(clf,X,y,cv=2*k)
@@ -79,6 +81,7 @@ def performCrossValidation(clf,X,y, k,gtData):
 def performCrossValidationForLinReg(clf,X,y, k,gtData):
     averagePrec = 0
     averageRecall = 0
+    averageF1 = 0
     kf = cross_validation.KFold(len(y), n_folds=k,random_state = None)
     foldcount = 1
     for train_index, test_index in kf:
@@ -101,10 +104,11 @@ def performCrossValidationForLinReg(clf,X,y, k,gtData):
         P,R,F1 = calculatePRF1(y_test,y_pred)
         averagePrec = averagePrec + P
         averageRecall = averageRecall + R
+        averageF1 = averageF1 + F1
     averagePrec = averagePrec/k
     averageRecall = averageRecall/k
-
-    print "averagePrec = ", averagePrec, "averageRecall = ", averageRecall, "using",k,  "fold\n"
+    averageF1 = averageF1/k
+    print "averagePrec = ", averagePrec, "averageRecall = ", averageRecall, "averageF1 = ", averageF1, "using",k,  "fold\n"
 
     # doing cross validation using method 2
     # y_pred = cross_val_predict(clf,X,y,cv=2*k)

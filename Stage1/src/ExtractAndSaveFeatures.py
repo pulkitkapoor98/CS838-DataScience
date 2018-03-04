@@ -73,14 +73,10 @@ def extractFeatures():
 
 							entryFeatureList.append(isTheBeforePhrase(the_whole_file, startIdx))
 							
-							# entryFeatureList.append(isPhraseAtTheBeginning(the_whole_file,startIdx))
-							# entryFeatureList.append(isPhraseAtTheEnd(the_whole_file,endIdx,numCharacters))
-							
 							entryFeatureList.append(isFirstWordBeforePhraseCapitalized(the_whole_file,startIdx))
 							entryFeatureList.append(isSecondWordBeforePhraseCapitalized(the_whole_file,startIdx))
 							
 							entryFeatureList.append(isFirstWordAfterPhraseCapitalized(the_whole_file,endIdx,numCharacters))
-							# entryFeatureList.append(isSecondWordAfterPhraseCapitalized(the_whole_file,endIdx,numCharacters))
 							
 							entryFeatureList.append(isFirstWordBeforePhraseAAn(the_whole_file,startIdx))
 							
@@ -93,18 +89,10 @@ def extractFeatures():
 							
 							# list = ["mr.", "mrs.", "dr.", "professor"]
 							entryFeatureList.append(isFirstWordBeforePhraseInList(the_whole_file,startIdx))
-							
 							entryFeatureList.append(isAnyWordinCommomnSingleList(phrase,commonSingleWordUni))
 							entryFeatureList.append(isWordinCommomnSingleList(phrase,commonSingleWordUni))
 							
 							entryFeatureList.append(isAllCaps(phrase))
-							
-							# entryFeatureList.append(isWordinCommomnSingleList(phrase,commonSingleWordUni))
-							# entryFeatureList.append(isWordinCommomnSingleListHash(phrase,commonSingleWordUni))
-							# entryFeatureList.append(isWordinCommomnSingleListHash(phrase,commonSingleWordUni))
-							# entryFeatureList.append(isWordinCommomnSingleListHash(phrase,commonSingleWordUni))
-							# entryFeatureList.append(isAnyWordinStateList(phrase,commonSingleWordUni))
-							# entryFeatureList.append(isAnyWordinStateList(phrase, universityStates))
 
 							entryFeatureList.append(label)			
 							allFeatureList.append(entryFeatureList)
