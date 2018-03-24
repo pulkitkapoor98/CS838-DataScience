@@ -9,6 +9,12 @@
 * [Compressed File](https://github.com/pulkitkapoor98/CS839-DataScience/blob/master/Stage1/Stage1_compressed.zip)
 
 
+#   Stage 2
+
+##  Hyperlinks
+* [Data Directory](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage2/Data)
+* [Code Directory](https://github.com/pulkitkapoor98/CS839-DataScience/tree/master/Stage2/src)
+* [Report](https://github.com/pulkitkapoor98/CS839-DataScience/blob/master/Stage2/CS839_Stage2_Report.pdf)
 ### Support or Contact
 
 
