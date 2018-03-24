@@ -23,7 +23,7 @@ def getlink(num_of_tuples):
         url = 'https://www.imdb.com/search/title?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=b9121fa8-b7bb-4a3e-8887-%20aab822e0b5a7&pf_rd_r=MY2MNXPADVTG5T9J3Z6X&pf_rd_s=right-%206&pf_rd_t=15506&pf_rd_i=moviemeter&genres=action&explore=title_type,genres&page=' + str(page)
         html_source = requests.get(url)
         plain_html = html_source.text
-        soup = BeautifulSoup(plain_html, "html.parser")
+        soup = BeautifulSoup(plain_html.encode('ascii', 'ignore'), "html.parser")
         for link in soup.findAll('h3', {'class': 'lister-item-header'}):
             item_url = "https://www.imdb.com" + link.find('a').get('href')
             item_name = "https://www.imdb.com" + link.find('a').string
@@ -37,7 +37,7 @@ def getdata(i_url, i_num):
         print "ITEM NUM:" + str(i_num)
         item_html_source = requests.get(i_url)
         item_plain_html = item_html_source.text
-        soup = BeautifulSoup(item_plain_html, "html.parser")
+        soup = BeautifulSoup(item_plain_html.encode('ascii', 'ignore'), "html.parser")
 
         #Title
         item_title = "NULL"
