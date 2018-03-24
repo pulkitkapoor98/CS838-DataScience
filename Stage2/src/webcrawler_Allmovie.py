@@ -27,15 +27,19 @@ def extract_data(source):
 
 
 def getlink(num_of_tuples):
-    page = 121
+    page = 1
     max_page = num_of_tuples/12
     item_num = 0
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
     while(page <= max_page):
-        url = 'http://www.allmovie.com/genre/drama-d649/alltime-desc/' + str(page)
+        url = 'https://www.allmovie.com/genre/drama-d649/alltime-desc/' + str(page)
+        #url = 'https://www.allmovie.com/genre/war-d947/alltime-desc/' + str(page)
+        #url = 'https://www.allmovie.com/genre/action-d646/alltime-desc/' + str(page)
+        #url = 'https://www.allmovie.com/genre/thriller-d942/alltime-desc/' + str(page)
+        #url = 'https://www.allmovie.com/genre/crime-d653/alltime-desc/' + str(page)
         html_source = requests.get(url, headers=headers)
         plain_html = html_source.text
-        soup = BeautifulSoup(plain_html, "html.parser")
+        soup = BeautifulSoup(plain_html.encode('ascii', 'ignore'), "html.parser")
         for link in soup.findAll('div', {'class': 'movie_row'}):
             for link1 in link.findAll('div'):
                 for link2 in link1.findAll('p', {'class': 'title'}):
@@ -50,7 +54,7 @@ def getdata(i_url, i_num):
         print "ITEM NUM:" + str(i_num)
         item_html_source = requests.get(i_url, headers=headers)
         item_plain_html = item_html_source.text
-        soup = BeautifulSoup(item_plain_html, "html.parser")
+        soup = BeautifulSoup(item_plain_html.encode('ascii', 'ignore'), "html.parser")
 
         #Title
         item_title = "NULL"
@@ -124,7 +128,7 @@ def getdata(i_url, i_num):
 
 
         #Production Company
-        item_production = "NULL"
+        item_production = []
         for link in soup.findAll('div', {'class': 'produced-by'}):
             item_production = link.find('div').string.strip().split(", ")
         item_production = "|".join(item_production).encode('utf-8').strip()
@@ -176,4 +180,4 @@ def getdata(i_url, i_num):
             wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
             wr.writerow(dataitem_list)
 
-getlink(4000)
+getlink(3000)
