@@ -1,13 +1,18 @@
 Movie data have been extracted from two sources. Data corresponding to each source has been stored in separate table (in separate files).
 
+Data Source 1: http://www.imdb.com/
+Number of tuples: 3013
+Attributes: MID,Title,Certificate,Genre,Rating,Running Time,Directors,Stars Cast,Country,Release Date,Production Company,Release Year,Release Month
 
-Data Source 2: http://www.imdb.com/
-Number of tuples: 3700
-Attributes: Title, Certificate, Genre, Rating, Running Time, Directors, Writers, Stars Cast, Country, Language, Budget, Gross, Release Date, Production Company
+Data Source 2: https://www.allmovie.com/
+Number of tuples: 3300
+Attributes: MID,Title,Certificate,Genre,Rating,Running Time,Directors,Stars Cast,Country,Release Date,Production Company,Release Year,Release Month
 
-Data Source 1: https://www.allmovie.com/
-Number of tuples: 3650
-Attributes: Title, Certificate, Genre, Rating, Running Time, Directors, Writers (NULL), Stars Cast, Country, Language (NULL), Budget (NULL), Gross (NULL), Release Date, Production Company
+File Descriptions -
 
-Note: "Attribute_Name (NULL)" represents that all values of this feature have been set to "NULL" as the corresponding source didn't provide values for this attribute.
-
+Table_IMDB_with_ID.csv - Table A contains data from Source 1.
+Table_Allmovie_with_ID.csv - Table B contains data from Source 2.
+Blocked_output.csv - lists all tuple pairs that survive the blocking step.  
+Labelled_data_final.csv -  lists all tuple pairs in the sample we have taken, together with the labels
+I_data.csv - Set I
+J_data.csv - Set j
