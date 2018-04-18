@@ -1,0 +1,1 @@
+This folder contains the Jupiter notebook that describes the blocking and matching process. It as well contains the source code for our project.

@@ -6,21 +6,21 @@ import csv
 filename = 'Table_IMDB.csv'
 dataitem_list = ['Title', "Certificate", "Genre", "Rating", "Running Time", "Directors", "Writers", "Stars Cast", "Country", "Language", "Budget", "Gross", "Release Date", "Production Company"]
 
-try:
-    os.remove(filename)
-except OSError:
-    pass
+#try:
+#    os.remove(filename)
+#except OSError:
+#    pass
 
 with open(filename, 'a') as myfile:
     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
     wr.writerow(dataitem_list)
 
 def getlink(num_of_tuples):
-    page = 7
+    page = 18
     max_page = num_of_tuples/50
     item_num = 0
     while(page <= max_page):
-        url = 'https://www.imdb.com/search/title?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=b9121fa8-b7bb-4a3e-8887-%20aab822e0b5a7&pf_rd_r=MY2MNXPADVTG5T9J3Z6X&pf_rd_s=right-%206&pf_rd_t=15506&pf_rd_i=moviemeter&genres=action&explore=title_type,genres&page=' + str(page)
+        url = 'http://www.imdb.com/search/title?title_type=feature&genres=thriller&page=' + str(page)
         html_source = requests.get(url)
         plain_html = html_source.text
         soup = BeautifulSoup(plain_html.encode('ascii', 'ignore'), "html.parser")
@@ -185,4 +185,4 @@ def getdata(i_url, i_num):
             wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
             wr.writerow(dataitem_list)
 
-getlink(4000)
+getlink(1250)

@@ -6,10 +6,10 @@ import csv
 filename = 'Table_Allmovie.csv'
 dataitem_list = ['Title', "Certificate", "Genre", "Rating", "Running Time", "Directors", "Writers", "Stars Cast", "Country", "Language", "Budget", "Gross", "Release Date", "Production Company"]
 
-try:
-    os.remove(filename)
-except OSError:
-    pass
+#try:
+#    os.remove(filename)
+#except OSError:
+#    pass
 
 with open(filename, 'a') as myfile:
     wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
@@ -32,9 +32,9 @@ def getlink(num_of_tuples):
     item_num = 0
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
     while(page <= max_page):
-        url = 'https://www.allmovie.com/genre/drama-d649/alltime-desc/' + str(page)
+        #url = 'https://www.allmovie.com/genre/drama-d649/alltime-desc/' + str(page)
         #url = 'https://www.allmovie.com/genre/war-d947/alltime-desc/' + str(page)
-        #url = 'https://www.allmovie.com/genre/action-d646/alltime-desc/' + str(page)
+        url = 'https://www.allmovie.com/genre/thriller-d942/hot-desc/' + str(page)
         #url = 'https://www.allmovie.com/genre/thriller-d942/alltime-desc/' + str(page)
         #url = 'https://www.allmovie.com/genre/crime-d653/alltime-desc/' + str(page)
         html_source = requests.get(url, headers=headers)
@@ -180,4 +180,4 @@ def getdata(i_url, i_num):
             wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
             wr.writerow(dataitem_list)
 
-getlink(3000)
+getlink(800)
